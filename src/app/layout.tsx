@@ -18,9 +18,9 @@ const serif = IBM_Plex_Serif({
 })
 
 export const metadata: Metadata = {
-  title: 'Alex Rivera · DevOps Engineer',
+  title: 'Divyanshu Tiwari · DevOps Engineer',
   description:
-    'Alex Rivera — Senior DevOps Engineer. Platform engineering, Kubernetes, CI/CD, and cloud infrastructure.',
+    'Divyanshu Tiwari — Senior DevOps Engineer. Platform engineering, Kubernetes, CI/CD, and cloud infrastructure.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

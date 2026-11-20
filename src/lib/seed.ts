@@ -2,16 +2,16 @@ import bcrypt from 'bcryptjs'
 import { Blog, Profile, Project, User } from './models'
 
 const defaultProfile = {
-  name: 'Alex Rivera',
-  given: 'Alex',
-  family: 'Rivera',
+  name: 'Divyanshu Tiwari',
+  given: 'Divyanshu',
+  family: 'Tiwari',
   pronouns: 'he/him',
   role: 'Senior DevOps Engineer',
   organization: 'CloudScale Systems',
   organizationUrl: 'https://example.com',
   avatar: '/avatar.png',
   email: 'alex.rivera@example.com',
-  bio: `Alex Rivera is a Senior DevOps Engineer at CloudScale Systems. He designs and operates cloud-native platforms at scale, with deep expertise in Kubernetes, CI/CD, and infrastructure as code. Alex focuses on reliability, developer experience, and secure delivery pipelines.`,
+  bio: `Divyanshu Tiwari is a Senior DevOps Engineer at CloudScale Systems. He designs and operates cloud-native platforms at scale, with deep expertise in Kubernetes, CI/CD, and infrastructure as code. Divyanshu focuses on reliability, developer experience, and secure delivery pipelines.`,
   about: `I build and run production platforms that help engineering teams ship faster with confidence. My work spans Kubernetes, Terraform, observability, and GitOps — applying automation and SRE practices to keep systems reliable at scale.
 
 I write about platform engineering, incident response, and cloud architecture. Reach out to collaborate.`,
