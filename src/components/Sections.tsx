@@ -8,9 +8,9 @@ export function AboutSection() {
   const { profile } = useContent()
   return (
     <section className="section" id="about">
-      <div className="container narrow">
+      <div className="container">
         <h2 className="section-title">Platform Engineering</h2>
-        <p className="prose">{profile.about}</p>
+        <p className="prose prose-measure">{profile.about}</p>
       </div>
     </section>
   )

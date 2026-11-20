@@ -43,7 +43,7 @@ export function Navbar() {
 
   return (
     <header className={`navbar${scrolled ? ' is-scrolled' : ''}`}>
-      <div className="navbar-inner">
+      <div className="container navbar-inner">
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
           {profile.name}
         </Link>

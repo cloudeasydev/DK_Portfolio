@@ -7,9 +7,11 @@ export function Footer() {
   const year = new Date().getFullYear()
   return (
     <footer className="site-footer">
-      <p>
-        © {year} {profile.name}. Built with React + Vite.
-      </p>
+      <div className="container">
+        <p>
+          © {year} {profile.name}. Built with React + Vite.
+        </p>
+      </div>
     </footer>
   )
 }
