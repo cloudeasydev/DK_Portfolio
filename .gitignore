@@ -27,3 +27,4 @@ server
 *.njsproj
 *.sln
 *.sw?
+infrastructure/terraform/environments/*
